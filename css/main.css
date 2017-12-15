@@ -43,3 +43,34 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Begin Generic Custom CSS */
+
+body {
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Work-Sans', Helvetica, sans-serif;
+}
+
+/* Navigation */
+
+header {
+    text-align: center;
+}
+
+nav {
+}
+
+nav .nav-link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0.4167em 0.75em;
+    padding: 0.25em;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+nav img {
+    width: 15%;
+}
