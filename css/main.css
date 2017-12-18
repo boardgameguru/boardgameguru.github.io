@@ -143,10 +143,16 @@ li a {
     font-weight: 700;
 }
 
+/* CSS styling for animated hero text */
+
 .is-active {
     display: inline-block;
 }
 
 .is-hidden {
     display: none;
+}
+
+.highlighted {
+    background-color: grey;
 }
