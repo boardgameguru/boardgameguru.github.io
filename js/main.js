@@ -24,8 +24,5 @@ function highlightText() {
 
 }
 
-function deleteText() {
 
-}
-
-//setInterval(function() {changeText()}, 2000)
+//setInterval(function() {changeText()}, 3000)
