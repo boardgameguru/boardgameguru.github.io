@@ -53,17 +53,21 @@ body {
 }
 
 
-/*
- Navigation
-*/
+/* Navigation */
 
 header {
     min-width: 40em;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    width: 100%;
 }
 
 
 table {
-    width: 80%;
+    width: 70%;
     min-width: 40em;
     background-color: grey;
     margin: auto;
@@ -77,7 +81,7 @@ ul {
 ul li {
     display: inline-block;
     font-size: 1.5em;
-    margin: 0.5em 1em;
+    margin: 0.5em;
 }
 
 table ul {
@@ -87,7 +91,7 @@ table ul {
 
 table tr td:nth-child(1) {
     text-align: right;
-    padding-right: 3em;
+    padding-right: 4em;
 }
 td.right {
     text-align: left;
@@ -105,7 +109,7 @@ li a {
     position: absolute;
     width: 100%;
     top: 0;
-
+    z-index: 1;
 }
 
 #imgContainer > img{
@@ -114,5 +118,30 @@ li a {
     z-index: 1;
     display: block;
     margin: auto;
+}
+
+/* Hero Landing */
+
+.hero {
+    height: 100vh;
+    background-image: url(https://placeimg.com/1500/1500/tech);
 
 }
+
+.hero-container {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+
+.hero-content {
+    text-align: center;
+    padding: 40vh 0;
+}
+
+.hero-content h1:nth-child(1) {
+    font-size: 3em;
+    color: white;
+    font-weight: 700;
+}
+
