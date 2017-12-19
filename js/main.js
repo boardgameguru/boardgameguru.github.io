@@ -5,6 +5,11 @@ function changeText() {
     for (var i = 0; i < elems.length; i++ ) {
         if (elems[i].className === "is-active highlighted") {
             elems[i].className = "is-hidden"
+
+            for (var j = 0; j < elems[i].children.length; j++) {
+                elems[i].children[j].className = "out";
+            }
+
             if (i + 1 > elems.length - 1) {
                 num = 0
             } else {
@@ -13,9 +18,17 @@ function changeText() {
         };
     };
     elems[num].className = "is-active";
+    typeText(elems[num]);
 };
 
-function typeText() {
+function typeText(elem) {
+    var letters = elem.children
+
+    for (var i = 0; i < letters.length; i++) {
+        (function(i) {
+            setTimeout(function(){letters[i].className = "in"}, i * 100)
+        })(i);
+    }
 
 }
 
@@ -30,5 +43,5 @@ function animateText () {
     setTimeout(changeText, 3000)
 }
 
-animateText();
-setInterval(animateText, 3000);
+typeText(document.getElementsByClassName("is-active")[0]);
+setInterval(animateText, 4000);
