@@ -153,6 +153,10 @@ li a {
     display: none;
 }
 
+.out {
+    display: none;
+}
+
 .highlighted {
     background-color: grey;
 }
