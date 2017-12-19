@@ -39,9 +39,11 @@ function highlightText() {
 
 
 function animateText () {
-    setTimeout(highlightText, 2500);
-    setTimeout(changeText, 3000)
+    setTimeout(highlightText, 3500);
+    setTimeout(changeText, 4000);
 }
 
 typeText(document.getElementsByClassName("is-active")[0]);
+setTimeout(highlightText, 3500);
+setTimeout(changeText, 4000);
 setInterval(animateText, 4000);
