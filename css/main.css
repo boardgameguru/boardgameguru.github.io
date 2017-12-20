@@ -126,8 +126,8 @@ li a {
 
 }
 
-.hero-container {
-    width: 70%;
+.container {
+    width: 80%;
     height: 100%;
     margin: auto;
 }
@@ -137,7 +137,7 @@ li a {
     padding: 40vh 0;
 }
 
-.hero-content h1:nth-child(1) {
+.hero-content h1 {
     font-size: 4em;
     color: white;
     font-weight: 700;
