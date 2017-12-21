@@ -130,6 +130,7 @@ li a {
     width: 80%;
     height: 100%;
     margin: auto;
+    text-align: center;
 }
 
 .hero-content {
@@ -161,3 +162,37 @@ li a {
     background-color: grey;
     color: black;
 }
+
+/* Begin Styling for static Content */
+
+header h1 {
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 0.75em;
+}
+
+.about-me-text {
+    display: inline-block;
+    width: 45%;
+    font-size: 1.175em;
+    font-weight: 300;
+    text-align: left;
+}
+
+.about-me-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 2em;
+}
+
+.about-me-text:nth-child(1) {
+    margin-right: 3em;
+}
+
+.about-me-text:nth-child(4) {
+    margin-left: 3em;
+}
+
+
