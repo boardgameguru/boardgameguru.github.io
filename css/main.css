@@ -203,4 +203,36 @@ li a {
 
 /* Begin styling for portfolio content */
 
+.portfolio {
+    background-color: aliceblue;
+}
 
+.portfolio img {
+    border-radius: 15px;
+    width: 300px;
+    height: 200px;
+}
+
+/* Begin styling for contact content */
+
+.contact p {
+    font-size: 1.75em;
+    margin-top: 1em;
+}
+
+.contact .container {
+    width: 60%
+}
+
+.email-link {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 0.75em 1.5em;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+.link-container {
+    margin-top: 50px;
+}
