@@ -202,7 +202,7 @@ li a {
 }
 
 .about-me-text:nth-child(1) {
-    padding-right: em;
+    padding-right: 2em;
     margin-right: 3em;
 }
 
@@ -222,6 +222,12 @@ li a {
     border-radius: 15px;
     width: 300px;
     height: 200px;
+    object-fit: contain;
+    background-color: white;
+}
+
+#personal  div {
+    vertical-align: top;
 }
 
 /* Begin styling for contact content */
