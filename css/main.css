@@ -124,7 +124,7 @@ li a {
     z-index: 1;
 }
 
-#imgContainer > img{
+#imgContainer > img {
     width: 100px;
     height: 100px;
     display: block;
@@ -135,7 +135,8 @@ li a {
 
 .hero {
     height: 100vh;
-    background-image: url(https://placeimg.com/1500/1500/tech);
+    background-image: url(https://placeimg.com/4000/2500/tech);
+    background-size: cover;
 
 }
 
