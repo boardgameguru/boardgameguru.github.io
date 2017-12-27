@@ -52,6 +52,10 @@ body {
     font-family: 'Work-Sans', Helvetica, sans-serif;
 }
 
+p {
+    line-height: 1.25;
+}
+
 header h1 {
     font-size: 3em;
     font-weight: 700;
@@ -190,7 +194,6 @@ li a {
     width: 45%;
     font-size: 1.175em;
     font-weight: 300;
-    line-height: 1.25;
     text-align: left;
 }
 
@@ -218,6 +221,26 @@ li a {
     background-color: aliceblue;
 }
 
+.portfolio h3 {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.portfolio h4 {
+    margin-top: 5px;
+    font-size: 1.25em;
+    font-style: italic;
+    color: grey;
+}
+
+.portfolio p {
+    margin-top: 10px;
+}
+
+.hcca h3 {
+    font-size: 1.75em;
+}
+
 .portfolio img {
     border-radius: 15px;
     width: 300px;
@@ -225,7 +248,8 @@ li a {
     object-fit: contain;
 }
 
-#personal  div {
+#personal  div,
+#professional div {
     vertical-align: top;
 }
 
