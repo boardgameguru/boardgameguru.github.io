@@ -261,6 +261,11 @@ li a {
     background-color: lightgray;
 }
 
+.seat-yourself img {
+    background-color: rgba(139, 0, 0, 0.5);
+    padding: 0 10px;
+}
+
 /* Begin styling for contact content */
 
 .contact p {
