@@ -325,3 +325,16 @@ li a {
     height: 40px;
     width: 40px;
 }
+
+/* Begin styling for footer content */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer h6 {
+    text-align: center;
+    font-size: 1em;
+    padding: 20px 0;
+}
