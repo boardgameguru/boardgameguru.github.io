@@ -266,6 +266,10 @@ li a {
     background-color: lightgray;
 }
 
+.game-table img {
+    background-color: #67c171;
+}
+
 .jaar img {
     object-fit: cover;
 }
