@@ -13,33 +13,13 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-    <!-- Begin navigation -->
+    <!-- Begin page header -->
     <header>
         <div id="imgContainer">
             <img  src="images/TS-Logo.svg" />
         </div>
-<!--
-        <nav>
-            <table>
-                <tr>
-                    <td>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                        </ul>
-                    </td>
-                    <td class="right">
-                        <ul>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </td>
-                </tr>
-            </table>
-        </nav>
--->
     </header>
-    <!-- End navigation -->
+    <!-- End page header -->
     <!-- Begin Hero Landing-->
     <section class="hero">
         <div class="hero-filter">
@@ -136,12 +116,18 @@
                         </div>
                     </h1>
                 </div>
+                <div class="learn-more">
+                    <a class="nav-link" onclick="smoothScroll('#about-me')">
+                        Learn more
+                        <img src="images/arrow.svg" />
+                    </a>
+                </div>
             </div>
         </div>
     </section>
     <!-- End Hero Landing-->
     <!-- Begin About Me-->
-    <section class="about-me">
+    <section id="about-me">
         <div class="container">
             <header><h1>My Story</h1></header>
             <section class="content">

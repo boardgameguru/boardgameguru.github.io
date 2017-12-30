@@ -47,3 +47,10 @@ typeText(document.getElementsByClassName("is-active")[0]);
 setTimeout(highlightText, 3500);
 setTimeout(changeText, 4000);
 setInterval(animateText, 4000);
+
+function smoothScroll(elem) {
+    document.querySelector(elem).scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+    })
+}

@@ -77,50 +77,6 @@ header {
     position: relative;
 }
 
-nav {
-    position: absolute;
-    width: 100%;
-}
-
-
-table {
-    width: 70%;
-    min-width: 40em;
-    background-color: grey;
-    margin: auto;
-    margin-top: 1.5em;
-}
-
-ul {
-    list-style:none;
-}
-
-ul li {
-    display: inline-block;
-    font-size: 1.5em;
-    margin: 0.5em;
-}
-
-table ul {
-    padding-left: 0;
-    padding-right:0;
-}
-
-table tr td:nth-child(1) {
-    text-align: right;
-    padding-right: 4em;
-}
-td.right {
-    text-align: left;
-    padding-left: 3em;
-    width: 50%;
-}
-
-li a {
-    text-decoration: none;
-    font-weight: 700;
-}
-
 #imgContainer {
     margin-top: 5px;
     position: absolute;
@@ -135,6 +91,28 @@ li a {
     margin: auto;
 }
 
+.learn-more {
+    position: absolute;
+    left: 46vw;
+    bottom: 2vh;
+}
+
+.nav-link {
+    display: block;
+    font-size: 1.5em;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.learn-more img {
+    display: block;
+    margin: auto;
+    width 40px;
+    height: 40px;
+}
+
 /* Hero Landing */
 
 .hero {
@@ -146,6 +124,7 @@ li a {
 
 .hero-filter {
     background-color: rgba(112, 128, 144, 0.4);
+    height: 100vh;
 }
 
 .container {
