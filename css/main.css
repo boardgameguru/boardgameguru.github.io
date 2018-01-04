@@ -657,3 +657,96 @@ footer h6 {
         font-size: 1.5em;
     }
 }
+
+@media only screen and (min-width:769px) and (max-width: 1024px) {
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    /*Hero*/
+
+    #imgContainer > img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .hero {
+        background-position: center;
+    }
+
+    .hero-content h1 {
+        font-size: 3.125em;
+    }
+
+    .learn-more {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 88vh;
+        font-size: 1.25em;
+    }
+
+    /*About Me*/
+
+    .about-me-container {
+        margin: 1em 0;
+    }
+
+    .about-me-text {
+        font-size: 1.25em;
+        line-height: 1.35;
+    }
+
+    .about-me-image {
+        width: 250px;
+        height: 250px;
+        margin: 30px 0;
+    }
+
+    /*My Work*/
+
+    .column {
+        width: 40%;
+    }
+
+    .portfolio header {
+        margin-bottom: 10px;
+    }
+
+    .portfolio p {
+        margin-bottom: 25px;
+        font-size: 1.25em;
+    }
+
+    .portfolio img {
+        height: 200px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .coming-soon:hover {
+        height: 200px;
+        width: 300px;
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+
+    .coming-soon:hover:before {
+        top: 40%;
+    }
+
+    /*Contact*/
+
+    .contact .container {
+        width: 90%;
+    }
+
+    .contact p {
+        font-size: 1.5em;
+    }
+}
