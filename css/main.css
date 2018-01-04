@@ -65,7 +65,7 @@ header h1 {
     padding-top: 0.75em;
 }
 
-div.one-third-column {
+.column {
     display: inline-block;
     width: 29%;
     margin: 2%;
@@ -74,12 +74,11 @@ div.one-third-column {
 /* Navigation */
 
 header {
-    min-width: 40em;
     position: relative;
 }
 
 #imgContainer {
-    margin-top: 5px;
+    margin-top: 20px;
     position: absolute;
     width: 100%;
     z-index: 1;
@@ -188,15 +187,15 @@ header {
     object-fit: cover;
 }
 
-.about-me-text:nth-child(1) {
-    padding-right: 2em;
-    margin-right: 3em;
-}
-
-.about-me-text:nth-child(2) {
+.about-me-text {
     vertical-align: top;
     margin-left: 3em;
     margin-bottom: 2em;
+}
+
+.about-me-text:nth-child(1) {
+    margin-right: 3em;
+    margin-left: 0;
 }
 
 /* Begin styling for portfolio content */
@@ -262,6 +261,10 @@ header {
     padding: 0 10px;
 }
 
+.coming-soon {
+    margin: auto;
+}
+
 .coming-soon:hover {
     position: relative;
     width: 300px;
@@ -269,7 +272,7 @@ header {
     border-radius: 15px;
     background-color: rgba(112, 128, 144, 0.6);
     margin-bottom: 3px;
-    transition:
+    font-size: 3.5em;
 }
 
 .coming-soon:hover:before {
@@ -279,7 +282,6 @@ header {
     left: 0;
     right: 0;
     top: 20%;
-    font-size: 3.5em;
     color: white;
 }
 
@@ -349,4 +351,106 @@ footer h6 {
     text-align: center;
     font-size: 1em;
     padding: 20px 0;
+}
+
+/*Begin small mobile design */
+
+@media only screen and (max-width: 320px) {
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    /*Hero*/
+
+    #imgContainer > img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .hero {
+        min-width: 100vw;
+        min-height: 100vh;
+        background-image: none;
+    }
+
+    .hero-filter {
+        background-color: rgb(112, 128, 144);
+        height: 100vh;
+    }
+
+    .hero-content {
+        position: absolute;
+        left: 0;
+        text-align: center;
+        padding: 0;
+        margin: 35vh 0;
+    }
+
+    .hero-content h1 {
+        font-size: 2.65em;
+    }
+
+    .learn-more {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 88vh;
+    }
+
+    /*About Me*/
+
+    .about-me-text {
+        width: 100%;
+        font-size: 1em;
+        margin: 0;
+        text-align: center;
+    }
+
+    .about-me-image {
+        width: 175px;
+        height: 175px;
+        margin: 30px 0;
+    }
+
+    .about-me-text:nth-child(1) {
+    margin-right: 0;
+    }
+
+    /*My Work*/
+
+    .column {
+        width: 100%;
+    }
+
+    .portfolio header {
+        margin-bottom: 10px;
+    }
+
+    .portfolio p {
+        margin-bottom: 25px;
+    }
+
+    .portfolio img {
+        height: 133px;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .coming-soon:hover {
+        height: 150px;
+        width: 225px;
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+
+    /*Contact*/
+
+    .contact .container {
+        width: 90%;
+    }
+
+    .contact p {
+        font-size: 1.5em;
+    }
 }
