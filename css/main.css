@@ -48,7 +48,6 @@ table {
 
 body {
     position: relative;
-    z-index: -2;
     box-sizing: border-box;
     font-size: 100%;
     font-family: 'Work-Sans', Helvetica, sans-serif;
