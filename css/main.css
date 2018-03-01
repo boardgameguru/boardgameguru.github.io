@@ -211,12 +211,12 @@ header {
 .portfolio h4 {
     margin-top: 5px;
     font-size: 1.25em;
-    color: grey;
+    color: #4D4D4D;
 }
 
 .portfolio h4 a {
     text-decoration: none;
-    color: grey;
+    color: #4D4D4D;
 }
 
 .portfolio p {
